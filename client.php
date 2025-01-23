@@ -1,0 +1,91 @@
+<?php
+
+@include 'config.php';
+?>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    
+   <link rel="stylesheet" href="css/test.css">
+   
+    
+  </head>
+  <body>
+
+  
+    <section class="section__container">
+      <div class="header">
+        <p><b>Our Happy Customers</b></p><br>
+        
+        <h3><mark>Our Great Customer Support!!</mark></h3>
+       
+      </div>
+      <div class="testimonials__grid">
+        <div class="card">
+          <span><i class="ri-double-quotes-l"></i></span>
+          <p>
+            I absoultly love ordering from this cashew factory! the nuts are always fresh and delicious.
+          </p>
+          <hr />
+          <img src="images/customer2.jpeg" alt="user" />
+          <p class="name">Akash Jadhav</p>
+        </div>
+        <div class="card">
+          <span><i class="ri-double-quotes-l"></i></span>
+          <p>
+            I'm huge fan of cashew and this factory has the best selection i've found. the quality is top-notch,and prices are reasonable.
+
+          </p>
+          <hr />
+          <img src="images/customer1.jpeg" alt="user" />
+          <p class="name">Suraj Raut</p>
+        </div>
+        <div class="card">
+          <span><i class="ri-double-quotes-l"></i></span>
+          <p>
+            Not only was customer support
+                                                very fast, but the
+                                                design is very professional. Will definitely be
+                                                looking for new products
+                                                in the future from this author
+          </p>
+          <hr />
+          <img src="images/customer.jpeg" alt="user" />
+          <p class="name">Nilesh Aute</p>
+        </div>
+      </div>
+
+  
+      <div class="footer">
+        <h4>Customer Choice: Rave Review!</h4>
+        <p>
+        We're thrilled to hear you're enjoying our cashews! Your feedback is our motivation to keep delivering the best quality and taste. Thank you for being a part of our cashew-loving community
+        </p>
+       
+            <a href="about.php" class="button">About Us!</a>
+     
+      </div>
+</section>
+
+
+
+
+
+
+
+
+  </body>
+  
+  
+</html>
